@@ -10,7 +10,8 @@
         }
     );
 
-    const target = document.getElementById("gates");
+    const target = document.getElementById("premium_registration_gate_entrance");
+
     const options = {attributes: true, subtree: true};
 
     observer.observe(target, options);
