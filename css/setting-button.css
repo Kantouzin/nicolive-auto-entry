@@ -1,0 +1,53 @@
+.setting-button__checkbox {
+    position: absolute;
+    visibility: hidden;
+}
+
+.setting-button__checkbox + label {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    user-select: none;
+    width: 120px;
+    height: 60px;
+    background-color: #dddddd;
+    border-radius: 60px;
+    transition: background 0.4s;
+}
+
+.setting-button__checkbox + label:before,
+.setting-button__checkbox + label:after {
+    display: block;
+    position: absolute;
+    content: "";
+}
+
+.setting-button__checkbox + label:before {
+    top: 2px;
+    left: 2px;
+    bottom: 2px;
+    right: 2px;
+    background-color: #fff;
+    border-radius: 60px;
+    transition: background 0.4s;
+}
+
+.setting-button__checkbox + label:after {
+    top: 8px;
+    left: 8px;
+    bottom: 8px;
+    width: 44px;
+    background-color: #dddddd;
+    border-radius: 50px;
+    transition: margin 0.4s, background 0.4s;
+}
+
+.setting-button__checkbox:checked + label {
+    background-color: #8ce196;
+}
+
+.setting-button__checkbox:checked + label:after {
+    margin-left: 60px;
+    background-color: #8ce196;
+}

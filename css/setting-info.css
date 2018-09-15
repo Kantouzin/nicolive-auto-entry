@@ -1,0 +1,21 @@
+.setting-info {
+    text-align: center;
+    white-space: nowrap;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.setting-info__info-left,
+.setting-info__info-right {
+    color: #888
+}
+
+.setting-info__info-left {
+    margin-left: 4px;
+}
+
+.setting-info__info-right {
+    margin-right: 4px;
+}
