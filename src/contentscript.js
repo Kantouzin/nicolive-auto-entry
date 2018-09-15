@@ -1,4 +1,4 @@
-(function() {
+(function () {
     var observer = new MutationObserver(
         (mutationRecords, observer) => {
             mutationRecords.forEach((record) => {
@@ -12,7 +12,10 @@
 
     const target = document.getElementById("premium_registration_gate_entrance");
 
-    const options = {attributes: true, subtree: true};
+    const options = {
+        attributes: true,
+        subtree: true
+    };
 
     observer.observe(target, options);
 }());
