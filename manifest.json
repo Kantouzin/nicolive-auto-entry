@@ -18,5 +18,9 @@
             "js": ["src/contentscript.js"],
             "run_at": "document_end"
         }
+    ],
+    "permissions": [
+        "storage",
+        "tabs"
     ]
 }
