@@ -13,7 +13,6 @@
     height: 60px;
     background-color: #dddddd;
     border-radius: 60px;
-    transition: background 0.4s;
 }
 
 .setting-button__checkbox + label:before,
@@ -30,7 +29,6 @@
     right: 2px;
     background-color: #fff;
     border-radius: 60px;
-    transition: background 0.4s;
 }
 
 .setting-button__checkbox + label:after {
@@ -40,14 +38,8 @@
     width: 44px;
     background-color: #dddddd;
     border-radius: 50px;
-    transition: margin 0.4s, background 0.4s;
-}
-
-.setting-button__checkbox:checked + label {
-    background-color: #8ce196;
 }
 
 .setting-button__checkbox:checked + label:after {
     margin-left: 60px;
-    background-color: #8ce196;
 }
