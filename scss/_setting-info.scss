@@ -7,15 +7,16 @@
 
 }
 
-.setting-info__info-left,
-.setting-info__info-right {
-    color: #888
+@mixin info-color($color: #888) {
+    color: $color;
 }
 
 .setting-info__info-left {
+    @include info-color();
     margin-left: 4px;
 }
 
 .setting-info__info-right {
+    @include info-color();
     margin-right: 4px;
 }
