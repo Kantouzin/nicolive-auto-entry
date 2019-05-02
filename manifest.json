@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Nicolive Auto Entry",
-    "version": "0.3",
+    "version": "0.4",
 
     "description": "ニコニコ生放送の入場を自動で行います。",
     "icons": {
@@ -14,7 +14,10 @@
 
     "content_scripts": [
         {
-            "matches": ["http://live.nicovideo.jp/gate/*"],
+            "matches": [
+                "http://live.nicovideo.jp/gate/*",
+                "https://live.nicovideo.jp/gate/*"
+            ],
             "js": ["src/contentscript.js"],
             "run_at": "document_end"
         }
