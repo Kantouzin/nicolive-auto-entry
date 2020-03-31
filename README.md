@@ -1,6 +1,8 @@
 # Nicolive Auto Entry
 
-ニコニコ生放送の入場を自動で行います。
+~~ニコニコ生放送の入場を自動で行います。~~
+
+<span style="color: red; font-weight: bold;">2019年12月05日の更新より、入場口は廃止されました。</span>
 
 ## Description
 
